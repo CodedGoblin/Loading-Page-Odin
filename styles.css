@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 15%;
+    background-color: #1f2937;
+}
+
+
+nav {
+    
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5% ;
+}
+
+nav h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    outline: 1px solid red;
+    flex: 0 1 40%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    outline: 1px solid red;
+    flex: 0 1 45%;
+    gap: 4%;
+    justify-content: flex-end;
+
+} 
+
+
+nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.marquis h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.marquis p {
+    font-size: 1em;
+    color: #f9faf8d3;
+
+}
+
+.marquis button {
+    font-size: 1em;
+    color: #f9faf8; 
+    background-color: #3882f6;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+
+.marquis {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0%;
+    outline: 1px solid red;
+}
+
+.marquis div {
+    display: flex;
+    width: 60%;
+    height: auto;
+    background-color: #e5e7eb77;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8d3;;
+    font-size: 1em;
+}
+
+
+.marquis form {
+    flex-basis: 50%;
+}
+
