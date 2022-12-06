@@ -1,7 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0 15%;
+    margin: 0 10%;
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
 }
 
 
@@ -11,20 +15,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5% ;
+    flex-basis: 5%;
 }
 
 nav h3 {
     color: #f9faf8;
     font-size: 24px;
-    outline: 1px solid red;
+    
     flex: 0 1 40%;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    outline: 1px solid red;
+    
     flex: 0 1 45%;
     gap: 4%;
     justify-content: flex-end;
@@ -55,8 +59,8 @@ nav a {
     font-size: 1em;
     color: #f9faf8; 
     background-color: #3882f6;
-    padding: 6px 20px;
-    border-radius: 10px;
+    padding: .5rem 1.5rem;
+    border-radius: 8px;
 }
 
 
@@ -64,7 +68,9 @@ nav a {
     display: flex;
     justify-content: space-between;
     padding: 5% 0%;
-    outline: 1px solid red;
+    
+    gap: 2em;
+    height: 20rem;
 }
 
 .marquis div {
@@ -81,5 +87,78 @@ nav a {
 
 .marquis form {
     flex-basis: 50%;
+}
+
+
+.info {
+    background-color: #f9faf8;
+    text-align: center;
+    height: 30rem;
+    
+
+}
+
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 2rem;
+    
+}
+
+
+
+
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    margin: 3rem 9rem;
+
+}
+
+
+#cards div {
+    width: 9rem;
+    height: 9rem;
+
+}
+
+.illustration {
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+#cards p{
+    text-align:center;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote i {
+    
+    width: 70%;
+    height: 50%;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 50%;
+    font-weight: 400;
+    text-align: left;
+}
+
+.quote p {
+    font-size: .8em;
+    font-weight: bolder;
+    text-align: end;
+    margin-right: 1em;
 }
 
