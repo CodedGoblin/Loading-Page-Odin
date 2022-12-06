@@ -59,8 +59,9 @@ nav a {
     font-size: 1em;
     color: #f9faf8; 
     background-color: #3882f6;
-    padding: .5rem 1.5rem;
+    padding: .3rem 1.5rem;
     border-radius: 8px;
+    border: 1px solid #3882f6; 
 }
 
 
@@ -161,4 +162,73 @@ h2 {
     text-align: end;
     margin-right: 1em;
 }
+
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-color: #f9faf8;
+
+}
+
+#call {
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#call div {
+    color: #f9faf8;
+}
+
+#call h3,p {
+    margin: 0;
+}
+
+#call p {
+    font-weight: lighter;
+    font-size: .9em;
+}
+
+#call button {
+    font-size: 1em;
+    color: #f9faf8; 
+    background-color: inherit;
+    padding: .3rem 1.5rem;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+#call button:hover {
+    transform: translateY(-.3em) ;
+    transition: all .4s;
+    box-shadow: 0em .2em 5px #f9faf8;
+}
+
+.marquis button:hover {
+    transform: translateX(.3em) ;
+    transition: all .4s;
+    box-shadow: -.2em 0em 5px #f9faf8;
+}
+
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline dotted white;
+
+}
+
 
